@@ -13,7 +13,8 @@ public class Function2 {
         int f = getDigitFrequency(n, d);
         System.out.println(f);
     }
-    public static int getDigitFrequency(int n, int d){
+
+    public static int getDigitFrequency(int n, int d) {
         int rv = 0;
 
         while (n > 0) {
@@ -22,7 +23,7 @@ public class Function2 {
 
             if (dig == d) {
                 rv++;
-            } 
+            }
         }
         return rv;
     }
