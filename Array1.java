@@ -5,9 +5,7 @@ public class Array1{
 
   public static void main(String[] args) throws Exception{
     
-    int[] arr;
-
-    arr = new int[5];
+    int[] arr = new int[5];
     arr[0] = 33;
     arr[1] = 47;
     arr[2] = 55;
