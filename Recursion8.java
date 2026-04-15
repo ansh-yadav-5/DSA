@@ -2,7 +2,7 @@
 // Time Complexity: O(2^n)
 
 
-public class Recusion8 {
+public class Recursion8 {
     public static void towerofHanoi(int n, char src, char dest, char helper) {
         if (n == 1) {
             System.out.println("Move 1st disc from " + src + " to " + dest);
